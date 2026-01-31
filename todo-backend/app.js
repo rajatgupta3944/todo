@@ -4,7 +4,7 @@
 // External Module
 const express = require('express');
 const { default: mongoose } = require('mongoose');
-const DB_PATH = "mongodb+srv://rajatgupta3944_db_user:sePd9vGR1uvuAsqQ@airbnb.m01ne2q.mongodb.net/todo?appName=airbnb";
+const DB_PATH = "";
 const todoItemsRouter = require('./routes/todoItemsRouter');
 const errorsController = require("./controllers/errors");
 const cors = require('cors');
